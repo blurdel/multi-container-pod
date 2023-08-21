@@ -34,5 +34,6 @@ spec:
               date >> /html/index.html;
               sleep 10;
             done
-
-
+      - name: ubuntu
+        image: ubuntu
+        command: ["/bin/bash", "-c", "while true; do echo Hello-there; sleep 10; done"]
