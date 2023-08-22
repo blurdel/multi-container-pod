@@ -5,4 +5,6 @@ kk exec  pod/mc  -c nginx -- /bin/cat /usr/share/nginx/html/index.html
 
 kk exec  pod/mc  -c debian -- /bin/cat /html/index.html
 
+kk logs mc [-f] -c ubuntu
+
 kk delete deployment mc
